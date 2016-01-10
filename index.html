@@ -4,10 +4,17 @@
     <meta charset="UTF-8">
     <title>I LOVE YOU</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" type="text/css" href="stylesheets/normalize.css" media="screen">
-    <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,700' rel='stylesheet' type='text/css'>
-    <link rel="stylesheet" type="text/css" href="stylesheets/stylesheet.css" media="screen">
-    <link rel="stylesheet" type="text/css" href="stylesheets/github-light.css" media="screen">
+  <script language="javascript">
+		var now=new Date();
+		var year=now.getYear()+1900;
+		var month=now.getMonth()+1;
+		var date=now.getDate();
+		var day=now.getDay();
+		var arr_week=new Array("星期日","星期一","星期二","星期三","星期四","星期五","星期六");
+		var week=arr_week[day];
+		var time="当前时间："+year+"年"+month+"月"+date+"日"+week+"你是否还在爱我？";
+		alert(time);
+	</script>
   </head>
   <body>
    <b><font face="微软雅黑" size="200" align="center">I LOVE YOU</font></b>
